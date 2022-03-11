@@ -1,0 +1,1270 @@
+@font-face {
+    font-family: 'Gilmer';
+    src: url('GilmerBold.eot');
+    src: local('Gilmer Bold'), local('GilmerBold'),
+        url('../font/GilmerBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/GilmerBold.woff2') format('woff2'),
+        url('../font/GilmerBold.woff') format('woff'),
+        url('../font/GilmerBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilmer';
+    src: url('GilmerLight.eot');
+    src: local('Gilmer Light'), local('GilmerLight'),
+        url('../font/GilmerLight.eot?#iefix') format('embedded-opentype'),
+        url('../font/GilmerLight.woff2') format('woff2'),
+        url('../font/GilmerLight.woff') format('woff'),
+        url('../font/GilmerLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilmer';
+    src: url('GilmerHeavy.eot');
+    src: local('Gilmer Heavy'), local('GilmerHeavy'),
+        url('../font/GilmerHeavy.eot?#iefix') format('embedded-opentype'),
+        url('../font/GilmerHeavy.woff2') format('woff2'),
+        url('../font/GilmerHeavy.woff') format('woff'),
+        url('../font/GilmerHeavy.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilmer';
+    src: url('GilmerMedium.eot');
+    src: local('Gilmer Medium'), local('GilmerMedium'),
+        url('../font/GilmerMedium.eot?#iefix') format('embedded-opentype'),
+        url('../font/GilmerMedium.woff2') format('woff2'),
+        url('../font/GilmerMedium.woff') format('woff'),
+        url('../font/GilmerMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilmer';
+    src: url('GilmerRegular.eot');
+    src: local('Gilmer Regular'), local('GilmerRegular'),
+        url('../font/GilmerRegular.eot?#iefix') format('embedded-opentype'),
+        url('../font/GilmerRegular.woff2') format('woff2'),
+        url('../font/GilmerRegular.woff') format('woff'),
+        url('../font/GilmerRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilmer Outline';
+    src: url('GilmerOutline.eot');
+    src: local('Gilmer Outline'), local('GilmerOutline'),
+        url('../font/GilmerOutline.eot?#iefix') format('embedded-opentype'),
+        url('../font/GilmerOutline.woff2') format('woff2'),
+        url('../font/GilmerOutline.woff') format('woff'),
+        url('../font/GilmerOutline.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-Black.eot');
+    src: local('FractulAlt-Black'),
+        url('../font/FractulAlt-Black.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-Black.woff2') format('woff2'),
+        url('../font/FractulAlt-Black.woff') format('woff'),
+        url('../font/FractulAlt-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-Bold.eot');
+    src: local('FractulAlt-Bold'),
+        url('../font/FractulAlt-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-Bold.woff2') format('woff2'),
+        url('../font/FractulAlt-Bold.woff') format('woff'),
+        url('../font/FractulAlt-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-BlackItalic.eot');
+    src: local('../font/FractulAlt-BlackItalic'),
+        url('../font/FractulAlt-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-BlackItalic.woff2') format('woff2'),
+        url('../font/FractulAlt-BlackItalic.woff') format('woff'),
+        url('../font/FractulAlt-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-ExtraBold.eot');
+    src: local('FractulAlt-ExtraBold'),
+        url('../font/FractulAlt-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-ExtraBold.woff2') format('woff2'),
+        url('../font/FractulAlt-ExtraBold.woff') format('woff'),
+        url('../font/FractulAlt-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-BoldItalic.eot');
+    src: local('FractulAlt-BoldItalic'),
+        url('../font/FractulAlt-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-BoldItalic.woff2') format('woff2'),
+        url('../font/FractulAlt-BoldItalic.woff') format('woff'),
+        url('../font/FractulAlt-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-ExtraBoldItalic.eot');
+    src: local('FractulAlt-ExtraBoldItalic'),
+        url('../font/FractulAlt-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-ExtraBoldItalic.woff2') format('woff2'),
+        url('../font/FractulAlt-ExtraBoldItalic.woff') format('woff'),
+        url('../font/FractulAlt-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt Hairline';
+    src: url('FractulAlt-Hairline.eot');
+    src: local('FractulAlt-Hairline'),
+        url('../font/FractulAlt-Hairline.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-Hairline.woff2') format('woff2'),
+        url('../font/FractulAlt-Hairline.woff') format('woff'),
+        url('../font/FractulAlt-Hairline.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt Hairline';
+    src: url('FractulAlt-HairlineItalic.eot');
+    src: local('FractulAlt-HairlineItalic'),
+        url('../font/FractulAlt-HairlineItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-HairlineItalic.woff2') format('woff2'),
+        url('../font/FractulAlt-HairlineItalic.woff') format('woff'),
+        url('../font/FractulAlt-HairlineItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-Italic.eot');
+    src: local('FractulAlt-Italic'),
+        url('../font/FractulAlt-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-Italic.woff2') format('woff2'),
+        url('../font/FractulAlt-Italic.woff') format('woff'),
+        url('../font/FractulAlt-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-Light.eot');
+    src: local('FractulAlt-Light'),
+        url('../font/FractulAlt-Light.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-Light.woff2') format('woff2'),
+        url('../font/FractulAlt-Light.woff') format('woff'),
+        url('../font/FractulAlt-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-LightItalic.eot');
+    src: local('FractulAlt-LightItalic'),
+        url('../font/FractulAlt-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-LightItalic.woff2') format('woff2'),
+        url('../font/FractulAlt-LightItalic.woff') format('woff'),
+        url('../font/FractulAlt-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-Medium.eot');
+    src: local('FractulAlt-Medium'),
+        url('../font/FractulAlt-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-Medium.woff2') format('woff2'),
+        url('../font/FractulAlt-Medium.woff') format('woff'),
+        url('../font/FractulAlt-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-MediumItalic.eot');
+    src: local('FractulAlt-MediumItalic'),
+        url('../font/FractulAlt-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-MediumItalic.woff2') format('woff2'),
+        url('../font/FractulAlt-MediumItalic.woff') format('woff'),
+        url('../font/FractulAlt-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-Regular.eot');
+    src: local('FractulAlt-Regular'),
+        url('../font/FractulAlt-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-Regular.woff2') format('woff2'),
+        url('../font/FractulAlt-Regular.woff') format('woff'),
+        url('../font/FractulAlt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-SemiBold.eot');
+    src: local('FractulAlt-SemiBold'),
+        url('FractulAlt-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('FractulAlt-SemiBold.woff2') format('woff2'),
+        url('FractulAlt-SemiBold.woff') format('woff'),
+        url('FractulAlt-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-SemiBoldItalic.eot');
+    src: local('FractulAlt-SemiBoldItalic'),
+        url('../font/FractulAlt-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-SemiBoldItalic.woff2') format('woff2'),
+        url('../font/FractulAlt-SemiBoldItalic.woff') format('woff'),
+        url('../font/FractulAlt-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-ThinItalic.eot');
+    src: local('FractulAlt-ThinItalic'),
+        url('../font/FractulAlt-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-ThinItalic.woff2') format('woff2'),
+        url('../font/FractulAlt-ThinItalic.woff') format('woff'),
+        url('../font/FractulAlt-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-Thin.eot');
+    src: local('FractulAlt-Thin'),
+        url('../font/FractulAlt-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-Thin.woff2') format('woff2'),
+        url('../font/FractulAlt-Thin.woff') format('woff'),
+        url('../font/FractulAlt-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilmer','Gilmer Outline','Fractul Alt';
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 0 -15px; */
+}
+/* .row > div{
+padding: 0 15px;
+width: 100%;
+} */
+a{
+    text-decoration: none;
+}
+h1 {
+    margin-top: 0;
+    font-size: 64px;
+    font-weight: 700;
+    color: #180E73;
+    font-family: 'Fractul Alt';
+    margin-bottom: 20px;
+}
+h2 {
+    margin-top: 0;
+    font-size: 48px;
+    margin-bottom: 15px;
+    font-family: 'Fractul Alt';
+    font-weight: 700;
+}
+h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Fractul Alt';
+}
+p {
+    font-size: 16px;
+    margin-top: 0;
+    color: #9F9F9F;
+    font-family: 'Gilmer';
+    font-weight: normal;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/***********header*************/
+header {
+    padding: 28px 0;
+    border-bottom: 2px solid #F2F4F6;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+}
+
+header .container .row {
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container .row .sub-menus ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+header .container .row .sub-menus ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+header .container .row .sub-menus ul li a {
+    color: #180E73;
+    font-weight: 500;
+    font-size: 16px;
+    transition: all ease-in-out .35s;
+}
+header .container .row .sub-menus ul li a:hover {
+    color: #486af6;
+}
+
+header .container .row .button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header .container .row .logo {
+    width: 10%;
+}
+
+header .container .row  .sub-menus {
+    width: 40%;
+}
+header .container .row .button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+header .container .row .button .whitepaper {
+    padding-right: 50px;
+}
+
+header .container .row .button .whitepaper a {
+    color: #180E73;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    background-color: #fff;
+    border: 2px solid #486AF6;
+    padding: 16px 32px;
+    transition: all ease-in-out .35s;
+}
+header .container .row .button .whitepaper a:hover{
+    color: #fff;
+    background-color: #486AF6;
+    border: 2px solid #486AF6;
+}
+header .container .row .button .Join-Discord a {
+    color: #fff;
+    background-color: #486AF6;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 16px 32px;
+    border: 2px solid #486AF6;
+    transition: all ease-in-out .35s;
+}
+header .container .row .button .Join-Discord a:hover{
+    color: #180E73;
+    background-color: #fff;
+    border: 2px solid #486AF6;
+}
+
+/*******banner*********/
+.banner {
+    background-image: url('../images/Vector\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 240px 0 100px 0;
+}
+.banner .container .row {
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .container .row .banner-left {
+    width: 50%;
+}
+.banner .container .row .banner-left .banner-left-main {
+    width: 100%;
+    max-width: 472px;
+}
+.banner .container .row .banner-left .banner-left-main h1 {
+    position: relative;
+}
+.banner .container .row .banner-left .banner-left-main h1::after {
+    content: "";
+    position: absolute;
+    background-image: url('../images/Group.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: -4px;
+    left: auto;
+    right: 50px;
+    width: 84px;
+    height: 13px;
+}
+
+.banner .container .row .banner-left .banner-left-main p {
+    margin-bottom: 50px;
+}
+.banner .container .row .banner-left .Join-Discord a {
+    color: #fff;
+    background-color: #486AF6;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 16px 32px;
+    border: 2px solid #486AF6;
+    transition: all ease-in-out .35s;
+}
+.banner .container .row .banner-left .Join-Discord a:hover{
+    color: #180E73;
+    background-color: #fff;
+    border: 2px solid #486AF6;
+}
+.banner .container .row .banner-right {
+    width: 50%;
+}
+
+.banner .container .row .banner-right img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/*******close***********/
+
+/*******industry*********/
+.industry {
+    padding-bottom: 100px;
+}
+.industry .container .row .industry-main {
+    width: 100%;
+    margin-bottom: 50px;
+}
+.industry .container .row .industry-main .industry-main-data {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.industry .container .row .industry-main .industry-main-data h2 {
+    color: #180E73;
+    position: relative;
+}
+.industry .container .row .industry-main .industry-main-data h2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    background-image: url('../images/Highlight_05.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 27px;
+    height: 30px;
+    transform: rotate(115deg);
+}
+.industry .container .row .industry-main .industry-main-data p {
+    font-size: 14px;
+}
+
+.industry .container .row .salary {
+    width: 31.20%;
+    padding: 0 15px;
+    position: relative;
+}
+.industry .container .row .salary::after {
+    content: "";
+    position: absolute;
+    background-image: url('../images/Group-arrow.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+    left: auto;
+    right: -18px;
+    top: 57%;
+    z-index: -1;
+}
+.industry .container .row .salary:nth-child(4)::after {
+    width: 0;
+}
+.industry .container .row .salary .salary-main {
+    background-color: #F2F4F6;
+    min-height: 200px;
+    max-height: 200px;
+    padding: 32px 24px;
+}
+.industry .container .row .salary .salary-main .salary-img img {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 100%;
+}
+.industry .container .row .salary .salary-main h4 {
+    color: #180E73;
+    width: 100%;
+}
+.industry .container .row .salary .salary-main p {
+    font-size: 14px;
+}
+.industry .container .row .salary .salary-main .salary-img {
+    margin-bottom: 50px;
+}
+.industry .container .row .Join-Discord {
+    margin-top: 70px;
+    text-align: center;
+    width: 100%;
+}
+.industry .container .row  .Join-Discord a {
+    color: #fff;
+    background-color: #486AF6;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 16px 32px;
+    border: 2px solid #486AF6;
+    transition: all ease-in-out .35s;
+}
+.industry .container .row  .Join-Discord a:hover{
+    color: #180E73;
+    background-color: #fff;
+    border: 2px solid #486AF6;
+}
+
+/*****close industry******/
+/*******benefits************/
+.benefits {
+    background-color: #F2F4F6;
+    padding: 50px 0px;
+}
+.benefits .container .row .benefits-right h2 {
+    color: #180E73;
+    position: relative;
+}
+.benefits .container .row .benefits-right h2::after {
+    content: "";
+    position: absolute;
+    background-image: url('../images/star.png');
+    background-repeat: no-repeat;
+    width: 33px;
+    height: 31px;
+}
+.benefits .container .row .benefits-right p {
+    font-size: 14px;
+    width: 100%;
+    max-width: 400px;
+}
+.benefits .container .row {
+    align-items: center;
+}
+.benefits .container .row .benefits-left {
+    width: 50%;
+}
+.benefits .container .row .benefits-right {
+    width: 50%;
+}
+
+
+/* (A) TABS CONTAINER */
+.tab, .tab * {
+    font-family: arial, sans-serif;
+    box-sizing: border-box;
+  }
+  .tab { max-width: 600px; }
+  
+  /* (B) HIDE CHECKBOX */
+  .tab input { display: none; }
+  
+  /* (C) TAB LABEL */
+  .tab label {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: 700;
+    color: #180e73;
+    background: #FFFFFF;
+    cursor: pointer;
+    font-size: 24px;
+}
+  
+  /* (D) TAB CONTENT - HIDDEN BY DEFAULT */
+  /* css animation will not work with auto height */
+  /* this is why we use max-height instead */
+  .tab .content {
+    background: #fff;
+    overflow: hidden;
+    transition: max-height 0.3s;
+    max-height: 0;
+}
+.tab .content p {
+    padding: 10px;
+    color: #9F9F9F;
+    font-size: 14px;
+    width: 430px;
+}
+  /* (E) OPEN TAB ON CHECKED */
+  .tab input:checked ~ .content { max-height: 100vh; }
+  
+  /* (F) EXTRA - ADD ARROW INDICATOR */
+  .tab label::after {
+    /* (F1) RIGHT ARROW */
+    display: block;  
+    content: "\25b6";
+   
+    /* (F2) PLACE AT RIGHT SIDE */
+    position: absolute;
+    right: 10px; top: 10px;
+   
+    /* (F3) ANIMATED ARROW */
+    transition: all 0.4s;
+  }
+   
+  /* (F4) ROTATE ARROW ON CHECKED */
+  .tab input:checked ~ label::after { transform: rotate(90deg); }
+  
+  /* (X) THE REST DOES NOT MATTER - COSMETICS */
+  /* PAGE & BODY */
+
+  
+  /* WIDGET */
+  .widget-wrap {
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.4);
+  }
+  
+  /* SVG */
+  #talk {
+    width: 100%; height:120px;
+    background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 512 512" width="100" xmlns="http://www.w3.org/2000/svg"><path d="M464 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-16 160H64v-84c0-6.6 5.4-12 12-12h360c6.6 0 12 5.4 12 12v84z" /></svg>');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+
+/***********benefits end***************/
+/******roadmap**********/
+.roadmap {
+    padding: 100px 0;
+}
+.roadmap-main {
+    width: 31.2%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+.roadmap-main h2 {
+    color: #180E73;
+    position: relative;
+}
+.roadmap-main h2::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -25px;
+    right: auto;
+    background-image: url('../images/Highlight_05.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 27px;
+    height: 30px;
+    transform: rotate(0deg);
+}
+.roadmap-new {
+    background-color: #F2F4F6;
+    min-height: 200px;
+    max-height: 200px;
+    padding: 32px 24px;
+}
+.salary-img {
+    margin-bottom: 50px;
+}
+.salary-img img {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 100%;
+}
+.roadmap-new h4 {
+    color: #180E73;
+    width: 100%;
+}
+.roadmap-main p {
+    font-size: 14px;
+    width: 363px;
+}
+.roadmap .container .row {
+    align-items: center;
+}
+/******roadmap end*******/
+/********token********/
+.token {
+    background-color: #F2F4F6;
+    padding: 100px 0;
+}
+.token-right ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.token-right ul li {
+    display: flex;
+    justify-content: space-between;
+}
+.token .container .row .token-left {
+    width: 70%;
+}
+.token .container .row .token-right {
+    width: 30%;
+}
+.token-right h2 {
+    color: #180E73;
+    position: relative;
+}
+.token-right h2::after {
+    content: "";
+    position: absolute;
+    background-image: url('../images/new.png');
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 44px;
+    top: -30px;
+    transform: translateX(-40px);
+}
+.token-right h4 {
+    color: #180E73;
+}
+.token-right ul li p:last-child {
+    color: #486AF6;
+}
+.token .container .row .token-right .Join-Discord a {
+    color: #fff;
+    background-color: #486AF6;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 16px 32px;
+    border: 2px solid #486AF6;
+    transition: all ease-in-out .35s;
+    margin-top: 20px;
+    display: inline-block;
+}
+.token .container .row .token-right .Join-Discord a:hover{
+    color: #180E73;
+    background-color: #fff;
+    border: 2px solid #486AF6;
+}
+.sale {
+    width: 31.2%;
+    padding: 0 15px;
+    margin-top: 90px;
+}
+.sale  ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.sale ul li {
+    display: flex;
+    justify-content: space-between;
+}
+.sale ul li p:last-child {
+    color: #486AF6;
+}
+.sale .sale-main {
+    background-color: #fff;
+    padding: 20px;
+}
+.sale .sale-main  img {
+    margin-bottom: 30px;
+}
+.sale .sale-main h4 {
+    color: #180E73;
+}
+
+
+.sale .sale-main .Join-Discord a {
+    color: #fff;
+    background-color: #486AF6;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 16px 32px;
+    border: 2px solid #486AF6;
+    transition: all ease-in-out .35s;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+}
+.sale .sale-main .Join-Discord a:hover{
+    color: #180E73;
+    background-color: #fff;
+    border: 2px solid #486AF6;
+}
+/******token end**********/
+
+.partners {
+    padding: 100px 0;
+}
+
+.partners .container .row .partners-main {
+    text-align: center;
+    width: 100%;
+}
+
+.partners .container .row .partners-main h2 {
+    color: #180E73;
+    position: relative;
+}
+
+.partners .container .row .partners-main h2::after {
+    content: "";
+    position: absolute;
+    background-image: url('../images/line.png');
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 14px;
+    bottom: -8px;
+    transform: translateX(-100px);
+}
+.partners .container .row .partners-main p {
+    font-size: 14px;
+    width: 450px;
+    margin: 0 auto;
+}
+.partners .container .row {
+    align-items: center;
+}
+.partner-new {
+    width: 17.87%;
+    padding: 0 15px;
+    text-align: center;
+    margin-top: 50px;
+}
+.part-main {
+    background-color: #F2F4F6;
+    width: 100%;
+    height: 100%;
+    min-height: 200px;
+    max-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*******partner end*******/
+/*****faq*******/
+
+.faq {
+    background-color: #F2F4F6;
+    padding: 100px 0;
+}
+.tabs {
+    width: 100%;
+}
+.accordion {
+    background-color: #F2F4F6;
+    color: #180E73;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    border-bottom: 5px solid #fff;
+}
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+
+  /*****footer******/
+
+  .footer {
+    background: #180E73;
+    padding: 50px 0;
+}
+.footer .container .row {
+    align-items: center;
+}
+.footer .container .row  .footer-right .footer-menus {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer .container .row .footer-left {
+    width: 10%;
+}
+.footer .container .row .footer-right {
+    width: 90%;
+}
+
+.footer .container .row .footer-right .footer-menus ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer .container .row  .footer-right .footer-menu2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer .container .row .footer-right .footer-menu2 ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer a {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Gilmer';
+    font-weight: 500;
+}
+
+.topnav {
+    display: none;
+}
+
+/***********responsive***************/
+
+@media(max-width:1436px){
+    h4 {
+        font-size: 19px;
+    }
+    header .container .row .sub-menus ul li a {
+        font-size: 15px;
+    }
+    .industry .container .row .salary {
+        width: 30.2%;
+    }
+    .industry .container .row .salary .salary-main p {
+        font-size: 12px;
+    }
+    .benefits .container .row .benefits-right {
+        width: 44%;
+        padding-left: 50px;
+    }
+    .roadmap-main {
+        width: 30.2%;
+        margin-bottom: 30px;
+    }
+    .roadmap-main p {
+        font-size: 12px;
+        width: 100%;
+    }
+    .sale {
+        width: 30.2%;
+    }
+    .partner-new {
+        width: 16.87%;
+    }
+}
+@media(max-width:1024px){
+    header .container .row {
+        display: none;
+    }
+    .topnav {
+        display: block;
+    }
+    .topnav {
+        overflow: hidden;
+        position: relative;
+      }
+      
+      .topnav #myLinks {
+        display: block;
+        background: #fff;
+        padding: 30px 0 50px 0;
+    }
+    .topnav #myLinks .sub-menus {
+        margin-bottom: 50px;
+    }
+      .topnav a {
+        color: #000;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+      
+      .topnav a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .active {
+        background-color: #04AA6D;
+        color: white;
+      }
+      .topnav .button {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .topnav .button .whitepaper {
+        padding-right: 50px;
+    }
+    
+    .topnav .button .whitepaper a {
+        color: #180E73;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        background-color: #fff;
+        border: 2px solid #486AF6;
+        padding: 16px 32px;
+        transition: all ease-in-out .35s;
+    }
+    .topnav .button .whitepaper a:hover{
+        color: #fff;
+        background-color: #486AF6;
+        border: 2px solid #486AF6;
+    }
+    .topnav .button .Join-Discord a {
+        color: #fff;
+        background-color: #486AF6;
+        font-weight: 500;
+        line-height: 24px;
+        padding: 16px 32px;
+        border: 2px solid #486AF6;
+        transition: all ease-in-out .35s;
+    }
+    .topnav .button .Join-Discord a:hover{
+        color: #180E73;
+        background-color: #fff;
+        border: 2px solid #486AF6;
+    }
+    
+}
+@media(max-width:991px){
+    .banner .container .row .banner-left {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .banner .container .row .banner-right {
+        width: 100%;
+    }
+    .industry .container .row .salary {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .industry .container .row .salary::after {
+        left: 0;
+        right: 0;
+        top: auto;
+        z-index: -1;
+        bottom: -30px;
+        margin: 0 auto;
+    }
+    .benefits .container .row .benefits-left {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .tab {
+        max-width: 100%;
+    }
+    .benefits .container .row .benefits-right {
+        width: 100%;
+        padding-left: 0px;
+    }
+    .roadmap-main {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .token .container .row .token-left {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .token .container .row .token-right {
+        width: 100%;
+    }
+    .sale {
+        width: 100%;
+    }
+    .partner-new {
+        width: 100%;
+    }
+    .token .container .row .token-left img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
+@media(max-width: 767px){
+    h2 {
+        font-size: 35px;
+    }
+    .footer .container .row {
+        align-items: center;
+        flex-direction: column;
+    }
+    .partners .container .row .partners-main p {
+        width: 100%;
+    }
+    .footer a {
+        font-size: 10px;
+    }
+    .footer .container .row .footer-left {
+        width: 100%;
+        text-align: center;
+    }
+    .tab label {
+        font-size: 17px;
+    }
+}
+
+@media(max-width:480px){
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .footer .container .row .footer-right .footer-menus ul li {
+        display: block;
+        padding: 10px 15px;
+    }
+    .footer a {
+        font-size: 16px;
+    }
+    .footer .container .row .footer-right .footer-menu2 ul li {
+        display: block;
+        padding: 10px 15px;
+    }
+    .roadmap {
+        padding: 60px 0;
+    }
+    .token {
+        padding: 60px 0;
+    }
+    .partners {
+        padding: 60px 0;
+    }
+    .faq {
+        padding: 60px 0;
+    }
+    .topnav .button .Join-Discord a {
+        padding: 16px 17px;
+        font-size: 14px;
+    }
+    .topnav .button .whitepaper a {
+        font-size: 14px;
+        padding: 16px 17px;
+    }
+    .topnav .button .whitepaper {
+        padding-right: 30px;
+    }
+}

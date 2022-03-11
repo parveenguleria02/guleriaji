@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Gilmer';
+    src: url('GilmerBold.eot');
+    src: local('Gilmer Bold'), local('GilmerBold'),
+        url('GilmerBold.eot?#iefix') format('embedded-opentype'),
+        url('GilmerBold.woff2') format('woff2'),
+        url('GilmerBold.woff') format('woff'),
+        url('GilmerBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilmer';
+    src: url('GilmerLight.eot');
+    src: local('Gilmer Light'), local('GilmerLight'),
+        url('GilmerLight.eot?#iefix') format('embedded-opentype'),
+        url('GilmerLight.woff2') format('woff2'),
+        url('GilmerLight.woff') format('woff'),
+        url('GilmerLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilmer';
+    src: url('GilmerHeavy.eot');
+    src: local('Gilmer Heavy'), local('GilmerHeavy'),
+        url('GilmerHeavy.eot?#iefix') format('embedded-opentype'),
+        url('GilmerHeavy.woff2') format('woff2'),
+        url('GilmerHeavy.woff') format('woff'),
+        url('GilmerHeavy.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilmer';
+    src: url('GilmerMedium.eot');
+    src: local('Gilmer Medium'), local('GilmerMedium'),
+        url('GilmerMedium.eot?#iefix') format('embedded-opentype'),
+        url('GilmerMedium.woff2') format('woff2'),
+        url('GilmerMedium.woff') format('woff'),
+        url('GilmerMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilmer';
+    src: url('GilmerRegular.eot');
+    src: local('Gilmer Regular'), local('GilmerRegular'),
+        url('GilmerRegular.eot?#iefix') format('embedded-opentype'),
+        url('GilmerRegular.woff2') format('woff2'),
+        url('GilmerRegular.woff') format('woff'),
+        url('GilmerRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilmer Outline';
+    src: url('GilmerOutline.eot');
+    src: local('Gilmer Outline'), local('GilmerOutline'),
+        url('GilmerOutline.eot?#iefix') format('embedded-opentype'),
+        url('GilmerOutline.woff2') format('woff2'),
+        url('GilmerOutline.woff') format('woff'),
+        url('GilmerOutline.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
